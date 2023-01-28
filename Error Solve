@@ -16,3 +16,11 @@ Solve= error_reporting(0);
 //
 
 
+
+
+//
+<?php if (!empty($profileid)) { ?>
+   	 	<h2>Profile Id : <?php echo $profileid;?></h2>
+<?php } ?>
+//
+
