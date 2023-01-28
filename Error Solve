@@ -1,0 +1,12 @@
+//
+Error= Warning: Trying to access array offset on value of type null in
+Solve= if($row){
+	$sis=$row['no_sis'];
+}
+if($row){
+	$aboutme=$row['aboutme'];
+}
+//
+
+
+
