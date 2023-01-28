@@ -19,8 +19,28 @@ Solve= error_reporting(0);
 
 
 //
+Woring:
 <?php if (!empty($profileid)) { ?>
    	 	<h2>Profile Id : <?php echo $profileid;?></h2>
 <?php } ?>
 //
 
+
+//
+Profile ID Show=
+<?php if (!empty($profileid)) { ?>
+   <h2>Profile Id : <?php echo $profileid;?></h2>
+<?php } ?>
+//
+
+
+//
+Username Disply Show=
+     <?php
+	If(isset($_SESSION['username'])) {
+Echo "Welcome : " . $_SESSION ['username'];
+} else {
+Echo "<a href=\”/login.php\”>Login</a>";
+}
+?>
+//
