@@ -56,3 +56,14 @@ Echo "<a href=\”/login.php\”>Login</a>";
 }
  ?>
  //
+ 
+ 
+ // Error= Warning: Undefined array key "id" in
+ Solution= <?php
+if ( isset ( $id) ||  isset ( $result)){
+/* $id=$_SESSION['id'];
+$result=search(); */
+}
+?>
+ //
+ 
