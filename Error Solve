@@ -44,3 +44,15 @@ Echo "<a href=\”/login.php\”>Login</a>";
 }
 ?>
 //
+
+
+
+
+// Without login can not acces any page (page headin option)
+<?php if(isloggedin()){
+ //do nothing stay here
+} else{
+   header("location:login.php");
+}
+ ?>
+ //
