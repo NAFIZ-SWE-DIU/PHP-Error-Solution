@@ -9,7 +9,6 @@ if($row){
 //
 
 
-
 //
 Error= Warning: Undefined variable $row in
 Solve= error_reporting(0);
